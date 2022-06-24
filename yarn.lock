@@ -5565,6 +5565,14 @@ gatsby-sharp@^0.11.0:
     "@types/sharp" "^0.30.0"
     sharp "^0.30.3"
 
+gatsby-source-medium@^4.17.0:
+  version "4.17.0"
+  resolved "https://registry.yarnpkg.com/gatsby-source-medium/-/gatsby-source-medium-4.17.0.tgz#7e26a86edf746e0359104752775688c904f29aa3"
+  integrity sha512-SrjqxESafl2L31y1ttobpNAAjyuSyzEcSjjlfjJkKG5GZCljs9L+bwKKfH2MEyuRNPsg3dguLo11c/mJJ4wm/Q==
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    axios "^0.21.1"
+
 gatsby-telemetry@^3.17.0:
   version "3.17.0"
   resolved "https://registry.yarnpkg.com/gatsby-telemetry/-/gatsby-telemetry-3.17.0.tgz#de5b094340d714969ac5a5f01ed19999d3b9557e"
