@@ -14,6 +14,7 @@ const config: GatsbyConfig = {
       },
     },
   ],
+  pathPrefix: '/gatsby-medium',
 };
 
 export default config;
