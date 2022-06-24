@@ -4,6 +4,9 @@
   "private": true,
   "description": "gatsby-medium",
   "author": "Alper Çıtak",
+  "main": "index.js",
+  "repository": "https://github.com/alpercitak/gatsby-medium.git",
+  "license": "MIT",
   "keywords": [
     "gatsby"
   ],
