@@ -15,4 +15,8 @@ jobs:
         node-version: '18'
 
     - run: yarn
+    
     - run: yarn deploy
+      with:
+          access-token: ${{ secrets.ACCESS_TOKEN }}
+
