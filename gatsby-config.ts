@@ -13,6 +13,9 @@ const config: GatsbyConfig = {
         username: `@alpercitak`,
       },
     },
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
   ],
   pathPrefix: '/gatsby-medium',
 };

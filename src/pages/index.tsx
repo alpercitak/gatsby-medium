@@ -1,5 +1,6 @@
 import * as React from "react"
 import { graphql } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image"
 
 type IProps = {
   data: any
@@ -19,6 +20,20 @@ const tagStyle = {
   color: "rgba(245, 139, 0, 0.75)"
 }
 
+const footerStyle = {
+  position: "fixed", 
+  left: 0,
+  right: 0,
+  bottom: 0, 
+  width: "100%", 
+  border: "1px solid #DDD", 
+  height: 48,
+  paddingLeft: 16,
+  paddingRight: 16,
+  display: "flex",
+  alignItems: "center"
+}
+
 const IndexPage = (props: IProps) => {
   return <>
     {props.data.allMediumPost.edges.map((x: any) => (
@@ -34,6 +49,11 @@ const IndexPage = (props: IProps) => {
         </div>
       </div>
     ))}
+    <div style={footerStyle}>
+      <a href="https://github.com/alpercitak/gatsby-medium" target={'_blank'}>
+        <StaticImage src="../images/github-mark-32px.png" alt="Github"></StaticImage>
+      </a>
+    </div>
   </>
 }
 
